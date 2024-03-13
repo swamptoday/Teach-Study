@@ -333,6 +333,7 @@ input[type=phone] {
 .circle-cut {
   width: 100%;
   height: 700px; /* Adjust height as needed */
+
   background-color: rgba(59, 93, 80, 0.55); /* Set background color */
   position: relative; /* Position relative for absolute positioning */
   position: relative; /* Position relative for absolute positioning */
@@ -483,4 +484,23 @@ input[type=phone] {
   overflow: hidden;
   /* Adjust the number of lines here */
   max-height: 3 * 1.2em; /* Approximate height of 3 lines */
+}
+
+#myVideo {
+  width: 100%;
+  height: auto;
+}
+
+.video-container {
+  position: relative;
+  text-align: center;
+}
+
+.video-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; /* Increased z-index */
+  color: white;
 }

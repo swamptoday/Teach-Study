@@ -118,6 +118,8 @@ footer {
 }
 
 .bg-primary {
+  background-image: url('../images/woman-8509281_1280.jpg');
+  background-size: cover;
   background-color: #3B5D50 !important;
   border-radius: 15px;
   height: 100%;
